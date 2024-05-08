@@ -1,0 +1,8 @@
+<p>contact works!</p>
+<a routerLink="/contact/11">contact 11</a>
+<a routerLink="/contact/12">contact 12</a>
+
+<div *ngIf="data">
+  <h1>Data</h1>
+  <p *ngFor="let i of data">{{ i.id }} {{ i.title }}</p>
+</div>
